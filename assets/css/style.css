@@ -237,3 +237,156 @@ body {
     background: #4aaaa5;
     border: 0 none;
   }
+
+  /*media query*/
+@media screen and (max-width: 980px){
+    
+     /*About Me Screen*/
+    
+     nav         {
+                     margin-right: 99px;
+     }
+    
+     #logo {
+                     margin-left: 199px;
+     }
+    
+    
+     .main-section {
+                     width: 344px;
+                     margin-left: 200px;
+     }
+     .auth-image {
+                    
+                     padding-right: 15px;
+     }
+    
+     .sidebar {
+                     margin-right: 75px;
+     }
+    
+     /*Contact*/
+    
+     #contact-form{
+                     width: 275px;
+                    
+     }             
+/*Portfolio*/
+    
+     .work {
+     height: 200px;
+     width: 230px;
+     float: none;
+      
+}
+
+     .work img {
+width: 230px;
+border: 0 none;
+opacity: 0.8;
+
+}
+
+     .work:nth-child(even) {
+
+}
+
+
+     .work h3 {
+     padding: 9px;
+     bottom: 30px;
+     height: 50px;
+    
+}
+
+     .auth-image {
+     height: 75px;
+width: 150px;
+
+
+}
+    
+}
+
+/*media query 768px*/
+@media screen and (max-width: 768px){
+    
+     /*About Me Screen*/
+    
+     nav         {
+                     margin-right: 50px;
+     }
+    
+     #logo {
+                     width: 190px;
+                     height: 75px;
+                     font-size: 30px;
+                     font-weight: 700;
+                     line-height: 90px;
+     }
+    
+    
+     .main-section {
+                     width: 500px;
+                     margin-left: 200px;
+     }
+     .auth-image {
+                     height: 150px;
+                     width: 200px;
+                     padding-right: 15px;
+     }
+    
+     .sidebar {
+                    
+                     margin-left: 200px;
+                     margin-top: 625px;
+                     margin-right: 0px;
+                     float: none;
+                    
+                    
+     }
+    
+     #connect {
+                    
+                    
+}
+}
+
+/*media query 640px*/
+@media screen and (max-width: 640px){
+    
+     /*About Me Screen*/
+    
+     nav         {
+     float: none;
+                                                    
+     }
+    
+                    
+     #logo {
+     width: 599px;
+     text-align: center;
+     margin-left: 0px;
+     margin-right: 0px;
+     }
+                    
+     .container {
+
+     }
+                    
+     .main-section {
+                     width: 250px;
+                     margin-left: 35px;
+     }             
+    
+     .sidebar {
+                    
+     float: none;
+                    
+     }
+    
+     #masthead {
+                     text-align: justify;
+                     
+     }
+}
